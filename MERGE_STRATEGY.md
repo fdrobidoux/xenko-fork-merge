@@ -1,12 +1,15 @@
+# Merge Strategy
+
 We can't start merging one by one blindly.
 
-Lexicon :
+## Lexicon :
 
 - **phr00t** = the fork made by Phr00t
 - **xen2** = xen2's original repo
 - **fdrobidoux** = my fork of xen2's repo, for the merge
 - *^ When I refer to the authors, it'll be more obvious.*
-Steps :
+
+## Steps :
 
 1. Find the earliest commit by Phr00t that hasn't been merged yet.
 2. Make a branch for that commit like `merge/{shorthash}-{one-or-two-words-describing-what-it-features-or-adds}`
@@ -41,4 +44,4 @@ Steps :
 
 Finally, remove every `// MERGE:` comment using solution-wide refactoring, push it all to remote/origin/master, and make a pull request to `xenko3d/xenko`.
 
-And we're done !
+And we're done !!!

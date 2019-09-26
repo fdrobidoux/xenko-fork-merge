@@ -2,10 +2,10 @@ We can't start merging one by one blindly.
 
 Lexicon :
 
-phr00t = the fork made by Phr00t
-xen2 = xen2's original repo
-fdrobidoux = my fork of xen2's repo, for the merge
-^ When I refer to the authors, it'll be more obvious.
+- **phr00t** = the fork made by Phr00t
+- **xen2** = xen2's original repo
+- **fdrobidoux** = my fork of xen2's repo, for the merge
+- *^ When I refer to the authors, it'll be more obvious.*
 Steps :
 
 1. Find the earliest commit by Phr00t that hasn't been merged yet.
